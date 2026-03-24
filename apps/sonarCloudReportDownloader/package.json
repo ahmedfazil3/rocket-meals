@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "tsx src/index.ts",
+    "start": "node init && tsx src/index.ts",
     "debug": "yarn run start",
     "fix:readonly": "tsx src/fixStaticReadonly.ts",
     "generate-issue": "tsx src/generateIssueMarkdown.ts"
